@@ -18,7 +18,7 @@ class Solution:
         return root
 
 def levelOrder(self, root):
-    Q = []
+    Q = [root]
     if (root.data is not None):
         Q.append(root)
     answer = ""
